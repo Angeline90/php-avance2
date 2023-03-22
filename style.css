@@ -1,0 +1,48 @@
+
+* {
+  box-sizing: border-box;
+  margin: center;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form {
+  width: 35%;
+  margin: auto;
+  border: solid 2px black;
+  padding: 1em;
+  border-radius: 2em;
+  background-color: silver;
+}
+
+label,
+input,
+textarea {
+  display: block;
+  width: 50%;
+}
+
+label {
+  margin-bottom: 0.5em;
+}
+
+input,
+textarea {
+  border-radius: 8px;
+  padding: 1em;
+  background-color: white;
+  width: 100%;
+  margin-bottom: 1em;
+  border: none;
+  resize: none;
+}
+
+button {
+  background-color: rgb(167, 133, 198);
+  color: white;
+  font-weight: bolder;
+  border-radius: 15px;
+  padding: 12px;
+}
